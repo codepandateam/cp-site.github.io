@@ -34,7 +34,14 @@
     "react-jss": "^8.6.1"
   },
   "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
     "gatsby-disable-404": "^0.2.1",
     "gh-pages": "^2.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
