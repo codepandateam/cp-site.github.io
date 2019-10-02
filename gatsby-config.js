@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Fine`,
-    subtitle: `Gatsby`,
-    description: `Discover the new Gatsby Fine starter library `,
-    keywords: `code, programming, gatsby, tutorial, starter, library`,
-    siteUrl: `https://gatsby-starter-fine.netlify.com`
+    title: `Code Panda`,
+    subtitle: `Software Development`,
+    description: `We are a software development agency with open source in our core.`,
+    keywords: `hacker culture, software engineering, software development, open source`,
+    siteUrl: `https://codepanda.co`
   },
   plugins: [
     `gatsby-plugin-jss`,
