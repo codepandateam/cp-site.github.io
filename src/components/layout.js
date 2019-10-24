@@ -52,17 +52,19 @@ const Layout = ({ children }) => (
 						<Navigator>
 							<Logo>
 								<h5>{data.site.siteMetadata.title} <SocialList><span>
-								<a target="_blank" href="#"><span className="fab fa-twitter"></span></a></span> <span>
-								<a target="_blank" href="#"><span className="fab fa-instagram"></span></a></span> <span>
+								{/* <a target="_blank" href="#"><span className="fab fa-twitter"></span></a></span> <span> */}
 								<a target="_blank" href="#"><span className="fab fa-github"></span></a></span>
 								</SocialList></h5>
 								<p>{data.site.siteMetadata.description}</p>
 							</Logo>
 							<nav>
 								<LinksList>
-									<li><Link to={`/single-page/`} activeClassName="active">Single Page</Link></li>
-									<li><Link to={`/`} activeClassName="active">Main Category</Link></li>
-									<li><Link to={`/cat2/`} activeClassName="active">2nd Category</Link></li>
+									<li><Link to={`/services/`} activeClassName="active">Services</Link></li>
+									<li><Link to={`/projects/`} activeClassName="active">Projects</Link></li>
+									<li><Link to={`/portfolio/`} activeClassName="active">Portfolio</Link></li>
+									<li><Link to={`/team/`} activeClassName="active">Team</Link></li>
+									<li><Link to={`/about/`} activeClassName="active">About</Link></li>
+									<li><Link to={`/contact/`} activeClassName="active">Contact</Link></li>
 								</LinksList>
 							</nav>
 						</Navigator>
